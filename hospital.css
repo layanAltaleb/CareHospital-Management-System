@@ -1,0 +1,90 @@
+.infocontainer{ 
+ position: relative;
+    flex-wrap: wrap;
+    display:flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 0em;
+   text-align: left;
+
+
+
+
+}
+
+.mission{
+  margin:0.07em;
+
+    background-color: #e5eef0;
+    width: 100%;
+    color: #2D5259;
+  font-size: 18px;
+  font-family:Georgia, serif;
+  padding:0.5em
+}
+.mission:hover{transform:scale(1.01)}
+
+.vision{
+  margin:0.07em;
+    background-color: #e5eef0;
+    width: 100%;
+    color: #2D5259;
+    font-size: 18px;
+    font-family:Georgia, serif;
+    padding:0.5em
+  }
+.vision:hover{transform:scale(1.01)}
+
+
+
+.values{
+  margin:0.07em;
+
+    background-color: #e5eef0;
+    width: 100%;
+    color: #2D5259;
+    font-size: 18px;
+    font-family:Georgia, serif;
+    padding:0.5em
+
+}
+.values:hover{transform:scale(1.01)}
+
+.values ul{list-style-type:none;}
+
+.contactinfo{
+  margin:0.07em;
+
+    background-color: #e5eef0;
+    width: 100%;
+    color: #2D5259;
+    font-size: 18px;
+    font-family:Georgia, serif;
+    padding:0.5em
+
+}
+
+.contactinfo:hover{transform:scale(1.01)}
+.contactinfo ul{list-style-type:circle;}
+
+
+.hospitalimages{
+    width: 45%;
+    color: #2D5259;
+    font-size: 18px;
+    font-family:Georgia, serif;
+    margin:1.2em;
+
+  }
+
+
+ .info{ font-size: 13px;
+  font-family:Georgia, serif;}
+
+ .care h1{
+  color: #2D5259;
+  font-family:Georgia, serif;
+  font-weight: lighter;
+  text-align: center;
+  }

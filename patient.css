@@ -1,0 +1,26 @@
+
+.container {
+	display:flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	margin: 50px;;
+	text-decoration: none;
+	justify-content: center;
+	padding: 40px;
+}
+
+div.buttonn{
+    background-color:#2D5259 ;
+    width: 450px;
+    height: 150px;
+    margin: 30px;
+    text-align: center;
+    line-height: 150px;
+	border-radius: 8px;
+    font-size: 30px;
+   align-self:center;}
+
+.buttonn a{
+	text-decoration: none;
+	color: #B7D1D8;
+}

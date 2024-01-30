@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>In-Patient Management Page</title>
+    <meta charset="utf-8"> 
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <script src="https://kit.fontawesome.com/b23f7a360e.js" crossorigin="anonymous"></script>
+     <link rel="stylesheet" href="in-pateint-mangement.css" >
+     <script src="darkTheme.js"></script> 
+
+</head>
+
+<body onload="load();">
+  <header>     
+    <img src="logos/logo.png" alt="logo" width="200" height="200">
+    <h1>CareHospital Management </h1>
+
+    <ul class="infomation">
+      <li><i class="fa-solid fa-envelope"></i>  CareHospital@gmail.com</li>
+      <li><i class="fa-solid fa-phone-volume"></i>  +966502479214</li>
+      <li><i class="fa-solid fa-location-dot"></i>  king Fahad st, Riyadh, Saudi Arabia</li>
+    </ul>
+  
+    <div class = "topnav">
+        <nav>
+            <ul class="nav1">
+                <li class="nav2"><a href = "index.html">Home Page</a></li>
+                <li class="nav2"><a href = "hospital.html">About hospital</a></li>
+                <li class="nav2"> <a href = "patient.html">Patients</a></li>
+                <li class="nav2"><a href = "doctor.html">Doctors</a></li>
+                <li class="nav2"> <a href = "ERPage.html">Emergency Schedule</a></li>
+                <li class="nav2"><a href = "pharmacy.html">Pharmacy</a></li>
+                <li class="nav2"><a href = "department.html">Departments</a></li>
+                <li class="nav2"> <a href = "awards.html">Awards</a></li>
+                <li class="nav2"> <a href = "ReportsPage.html">Reports</a></li>
+                <li class="nav2"> <a href = "SettingsPage.html">Settings</a></li>
+            </ul>
+        </nav>
+    </div>  
+  </header>
+</form>
+
+<div id="ward">
+<label>select ward</label>
+  <select id="ward" name="wards">
+    <option value="w1">---</option>
+    <option value="w2">A</option>
+    <option value="w3">B</option>
+    <option value="w3">C</option>
+    <option value="w3">D</option>
+  </select>
+</div>
+
+  <section class="section patient">
+
+    <div class="form-modal" id="form-modal">
+        <span id="close-form"> X </span>
+
+        <!-- Available Bed Form -->
+        <form action="" method="post" id="patient-form">
+            <input type="hidden" name="bed-id" id="bed-id">
+            <div>
+              <label for="patient-name">Patient Name: </label>
+              <input type="text" id="patient-name" name="patient-name" required>
+            </div>
+            <div>
+              <label for="discharge-name">Discharge Date: </label>
+              <input type="date" id="discharge-date" name="discharge-date" required>
+            </div>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+
+    <div class="reservation-modal" id="reservation-modal">
+      <span id="close-reservation"> X </span>
+      <!-- Occupied Bed Data -->  
+    </div>
+    </div>
+
+
+    <div class="beds ">
+
+      <div class="bed static" id="bed1">
+        <div class="top d-flex"><img src="pic/Picture11.png" alt="bed"  style="width: 100%; height: 100%;"></div>
+        <h2>bed1</h2>
+        <div class="bed-data">
+          <div> <div class="p-name"></div></div>
+          <div><div class="ad-date"></div></div>
+          <div> <div class="d-date"></div></div> 
+        </div>
+      </div>
+     
+      <div class="bed available" id="bed2">
+        <div class="top d-flex"><img src="pic/Picture10.png" alt="bed" style="width: 100%; height: 100%;" ></div>
+        <h2>bed2</h2>
+      </div>
+
+      <div class="bed static" id="bed3">
+        <div class="top d-flex"><img src="pic/Picture11.png" alt="bed"  style="width: 100%; height: 100%;"></div>
+        <h2>bed3</h2>
+        <div class="bed-data">
+          <div><div class="p-name"></div></div>
+          <div><div class="ad-date"></div></div>
+          <div><div class="d-date"></div></div> 
+        </div>
+      </div>
+     
+      <div class="bed available" id="bed4">
+        <div class="top d-flex"><img src="pic/Picture10.png" alt="bed" style="width: 100%; height: 100%;" ></div>
+        <h2>bed4</h2>
+      </div>
+
+      <div class="bed available" id="bed5" >
+        <div class="top d-flex"><img src="pic/Picture10.png" alt="bed"  style="width: 100%; height: 100%;"></div>
+        <h2>bed5</h2> 
+      </div>
+     
+
+      <div class="bed static" id="bed6">
+        <div class="top d-flex"><img src="pic/Picture11.png" alt="bed" style="width: 100%; height: 100%;" ></div>
+        <h2>bed6</h2>
+        <div class="bed-data">
+          <div><div class="p-name"></div></div>
+          <div><div class="ad-date"></div></div>
+          <div><div class="d-date"></div></div> 
+        </div>
+      </div>
+     
+
+    </div>
+    <div class="beds ">
+
+
+      <div class="bed static" id="bed7">
+        <div class="top d-flex"><img src="pic/Picture11.png" alt="bed"  style="width: 100%; height: 100%;"></div>
+        <h2>bed7</h2>
+        <div class="bed-data">
+          <div><div class="p-name"></div></div>
+          <div><div class="ad-date"></div></div>
+          <div><div class="d-date"></div></div> 
+        </div>
+      </div>
+     
+
+      <div class="bed available" id="bed8">
+        <div class="top d-flex"><img src="pic/Picture10.png" alt="bed" style="width: 100%; height: 100%;" ></div>
+        <h2>bed8</h2>
+      </div>
+
+      <div class="bed static" id="bed9">
+        <div class="top d-flex"><img src="pic/Picture11.png" alt="bed"  style="width: 100%; height: 100%;"></div>
+        <h2>bed9</h2>
+        <div class="bed-data">
+            <div><div class="p-name"></div></div>
+            <div><div class="ad-date"></div></div>
+            <div><div class="d-date"></div></div> 
+          </div>
+        </div>
+     
+
+      <div class="bed available" id="bed10">
+        <div class="top d-flex"><img src="pic/Picture10.png" alt="bed" style="width: 100%; height: 100%;" ></div>
+        <h2>bed10</h2>
+      </div>
+
+      <div class="bed static" id="bed11">
+        <div class="top d-flex"><img src="pic/Picture11.png" alt="bed"  style="width: 100%; height: 100%;"></div>
+        <h2>bed11</h2>
+        <div class="bed-data">
+          <div><div class="p-name"></div></div>
+          <div><div class="ad-date"></div></div>
+          <div><div class="d-date"></div></div> 
+        </div>
+      </div>
+     
+      <div class="bed available" id="bed12">
+        <div class="top d-flex"><img src="pic/Picture10.png" alt="bed" style="width: 100%; height: 100%;" ></div>
+        <h2>bed12</h2>
+      </div>
+     
+    </div>
+    <div class="beds ">
+
+      <div class="bed static" id="bed13">
+        <div class="top d-flex"><img src="pic/Picture11.png" alt="bed"  style="width: 100%; height: 100%;"></div>
+        <h2>bed13</h2>
+        <div class="bed-data">
+          <div><div class="p-name"></div></div>
+          <div><div class="ad-date"></div></div>
+          <div><div class="d-date"></div></div> 
+        </div>
+      </div>
+     
+      <div class="bed available" id="bed14">
+        <div class="top d-flex"><img src="pic/Picture10.png" alt="bed" style="width: 100%; height: 100%;" ></div>
+        <h2>bed14</h2>
+      </div>
+
+      <div class="bed available" id="bed15">
+        <div class="top d-flex"><img src="pic/Picture10.png" alt="bed"  style="width: 100%; height: 100%;"></div>
+        <h2>bed15</h2>
+      </div>
+     
+      <div class="bed static" id="bed16">
+        <div class="top d-flex"><img src="pic/Picture11.png" alt="bed" style="width: 100%; height: 100%;" ></div>
+        <h2>bed16</h2>
+        <div class="bed-data">
+          <div><div class="p-name"></div></div>
+          <div><div class="ad-date"></div></div>
+          <div><div class="d-date"></div></div> 
+        </div>
+      </div>
+
+      <div class="bed available" id="bed17">
+        <div class="top d-flex"><img src="pic/Picture10.png" alt="bed"  style="width: 100%; height: 100%;"></div>
+        <h2>bed17</h2>
+      </div>
+     
+      <div class="bed available" id="bed18">
+        <div class="top d-flex"><img src="pic/Picture10.png" alt="bed" style="width: 100%; height: 100%;" ></div>
+        <h2>bed18</h2>
+      </div>
+     
+
+    </div>
+    <div class="beds ">
+
+
+      <div class="bed available" id="bed19">
+        <div class="top d-flex"><img src="pic/Picture10.png" alt="bed"  style="width: 100%; height: 100%;"></div>
+        <h2>bed19</h2>
+      </div>
+     
+      <div class="bed available" id="bed20">
+        <div class="top d-flex"><img src="pic/Picture10.png" alt="bed" style="width: 100%; height: 100%;" ></div>
+        <h2>bed20</h2>
+      </div>
+
+      <div class="bed available" id="bed21">
+        <div class="top d-flex"><img src="pic/Picture10.png" alt="bed"  style="width: 100%; height: 100%;"></div>
+        <h2>bed21</h2>
+      </div>
+     
+      <div class="bed available" id="bed22">
+        <div class="top d-flex"><img src="pic/Picture10.png" alt="bed" style="width: 100%; height: 100%;" ></div>
+        <h2>bed22</h2>
+      </div>
+
+      <div class="bed available" id="bed23">
+        <div class="top d-flex"><img src="pic/Picture10.png" alt="bed"  style="width: 100%; height: 100%;"></div>
+        <h2>bed23</h2>
+      </div>
+     
+      <div class="bed available" id="bed24">
+        <div class="top d-flex"><img src="pic/Picture10.png" alt="bed" style="width: 100%; height: 100%;" ></div>
+        <h2>bed24</h2>
+      </div>
+     
+
+    </div>
+  </section>
+
+  <footer>
+    <ul>
+        <li class="footer"><a href = "index.html">Home Page</a> </li>
+        <li class="footer"><a href = "hospital.html">About hospital</a> </li>
+        <li class="footer"> <a href = "patient.html">Patients</a> </li>
+        <li class="footer"><a href = "doctor.html">Doctors</a></li>
+        <li class="footer"> <a href = "ERPage.html">Emergency Schedule</a></li>
+        <li class="footer"><a href = "pharmacy.html">Pharmacy</a></li>
+        <li class="footer"><a href = "department.html">Departments</a></li>
+        <li class="footer"> <a href = "awards.html">Awards</a></li>
+        <li class="footer"> <a href = "ReportsPage.html">Reports</a></li>
+        <li class="footer"> <a href = "SettingsPage.html">Settings</a></li>
+        <li class="footer"> <a href = "in-pateint-mangement.html">In-Patient</a></li>
+        <li class="footer"> <a href = "newpatient.html">New-Patient</a></li>
+    </ul> 
+    <p>©️2023CareHospital</p>
+</footer>
+<script src="in-patient-management.js"></script>
+ </body>
+</html>

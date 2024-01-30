@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="ER.css">
+    <script src="https://kit.fontawesome.com/b23f7a360e.js" crossorigin="anonymous"></script>
+    <script src="darkTheme.js"></script> 
+
+   
+    <script src="ER.js"></script>
+    <title>ER page</title>      
+</head>
+
+<body  onload="printSunday(); load();" >
+    <header>     
+        <img src="logos/logo.png" alt="logo" width="200" height="200">
+        <h1>CareHospital Management </h1>
+
+        <ul class="infomation">
+            <li><i class="fa-solid fa-envelope"></i>  CareHospital@gmail.com</li>
+            <li><i class="fa-solid fa-phone-volume"></i>  +966502479214</li>
+            <li><i class="fa-solid fa-location-dot"></i>  king Fahad st, Riyadh, Saudi Arabia</li>
+        </ul>
+        
+        <div class = "topnav">
+            <nav>
+                <ul class="nav1">
+                    <li class="nav2"><a href = "index.html">Home Page</a></li>
+                    <li class="nav2"><a href = "hospital.html">About hospital</a></li>
+                    <li class="nav2"> <a href = "patient.html">Patients</a></li>
+                    <li class="nav2"><a href = "doctor.html">Doctors</a></li>
+                    <li class="nav2"> <a href = "ERPage.html">Emergency Schedule</a></li>
+                    <li class="nav2"><a href = "pharmacy.html">Pharmacy</a></li>
+                    <li class="nav2"><a href = "department.html">Departments</a></li>
+                    <li class="nav2"> <a href = "awards.html">Awards</a></li>
+                    <li class="nav2"> <a href = "ReportsPage.html">Reports</a></li>
+                    <li class="nav2"> <a href = "SettingsPage.html">Settings</a></li>
+                </ul>
+            </nav>
+        </div>  
+    </header>
+
+        <main id="ER-main"> 
+            
+            <h4 id="p1">This week starts at Sunday</h4>
+            
+               
+                
+            <table>
+                <caption>Current Week Schedule</caption>
+
+                <thead>
+                <tr class="colorchanger">
+                    <th></th>
+                  
+                    <td id="sun">Sunday</td>
+                    <td id="mon">Monday</td>
+                    <td id="tues">Tuesday</td>
+                    <td id="wed">Wednesday</td>
+                    <td id="thurs">Thursday</td>
+                    <td id="fri">Friday</td>
+                    <td id="sat">Saturday</td>
+                </tr>
+                </thead>
+                <tr>
+                    <th>6AM-10Am</th>
+                    <td rowspan="3">Dr.Sara</td>
+                    <td>Dr.Ahmad</td>
+                    <td rowspan="3" colspan="2">Dr.Omar</td>
+                    <td colspan="3">Dr.Noura</td>
+
+                </tr>
+                <tr>
+                    <th>10Am-2PM</th>
+                    <td rowspan="3">Dr.Amal</td>
+                    <td colspan="3">Dr.Sara</td>
+                </tr>
+                <tr>
+                    <th>2PM-6PM</th>
+                    <td colspan="3">Dr.Khaled</td>
+                </tr>
+                <tr>
+                    <th>6PM-10PM</th>
+                    <td rowspan="2">Dr.Ahmad</td>
+                    <td rowspan="3" colspan="3">Dr.Ahmad</td>
+                    <td colspan="2">Dr.Noura</td>
+
+                </tr>
+                <tr>
+                    <th>10PM-2AM</th>
+                    <td rowspan="2">Dr.Rana</td>
+                    <td >Dr.Omar</td>
+                    <td>Dr.Khaled</td>
+                </tr>
+                <tr>
+                    <th>2AM-6AM</th>
+                    <td>Dr.Amal</td>
+                    <td colspan="2">Dr.Sara</td>
+                    
+                </tr>
+            </table><br>
+        </main>
+        <footer>
+            <ul>
+                <li class="footer"><a href = "index.html">Home Page</a> </li>
+                <li class="footer"><a href = "hospital.html">About hospital</a> </li>
+                <li class="footer"> <a href = "patient.html">Patients</a> </li>
+                <li class="footer"><a href = "doctor.html">Doctors</a></li>
+                <li class="footer"> <a href = "ERPage.html">Emergency Schedule</a></li>
+                <li class="footer"><a href = "pharmacy.html">Pharmacy</a></li>
+                <li class="footer"><a href = "department.html">Departments</a></li>
+                <li class="footer"> <a href = "awards.html">Awards</a></li>
+                <li class="footer"> <a href = "ReportsPage.html">Reports</a></li>
+                <li class="footer"> <a href = "SettingsPage.html">Settings</a></li>
+                <li class="footer"> <a href = "in-pateint-mangement.html">In-Patient</a></li>
+                <li class="footer"> <a href = "newpatient.html">New-Patient</a></li>
+            </ul> 
+            <p>©️2023CareHospital</p>
+        </footer>
+        
+    </body>
+</html>

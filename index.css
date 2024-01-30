@@ -1,0 +1,89 @@
+ #index-main{
+  width: 80%;
+  justify-content: center;
+  margin-left: 12%;
+  margin-bottom:-8.8% ;
+  padding:1%;
+  }
+
+
+ div.flex-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #B7D1D8;
+  flex-flow: row wrap;
+  margin-bottom:8%;
+  margin-top: 33px; 
+  height:100%;
+ } 
+
+
+div.desc{ 
+  color: #2D5259;
+  font-size: 28px;
+  font-family:Georgia, serif;
+  text-align: center;
+  position: absolute;
+  overflow: hidden;
+  text-align: center;
+  margin-top: 38%;
+  margin-left: 19%;
+}
+
+div.des{
+  color: #2D5259;
+  font-size: 26px;
+  font-family:Georgia, serif;
+  text-align: center;
+  position: absolute;
+  overflow: hidden;
+  text-align: center;
+  margin-top: 35%;
+  margin-left: 2%;
+}
+
+div.dess{
+  color: #2D5259;
+  font-size: 28px;
+  font-family:Georgia, serif;
+  text-align: center;
+  position: absolute;
+  overflow: hidden;
+  text-align: center;
+  margin-top: 37%;
+  margin-left: 12%;
+}
+
+
+  div.container .overlay{
+    position: absolute;
+    bottom:0;
+    left:0;
+    right: 0;
+    top: 0;
+    background-color: #9cc3ce;
+    border-radius: 9px;
+    overflow: hidden;
+    width: 0%;
+    height: 0%;
+    margin-top: 0.5%;
+    transition: .5s ease;
+  }
+
+  
+  .container:hover .overlay {
+    width: 10pc;
+    height: 10pc;
+  }    
+
+
+  .container {
+    width: 12pc;
+    height: 12pc;
+    position: relative;
+  }
+  
+.flex-container {
+  flex-direction: row;
+  margin: -0.4%;}
+  

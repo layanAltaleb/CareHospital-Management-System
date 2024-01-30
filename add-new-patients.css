@@ -1,0 +1,120 @@
+label{
+  color: #2D5259;
+}
+
+.main-user-info{
+  display: flex; 
+  flex-wrap:wrap;
+  padding: 10px 0;
+  justify-content:center ;
+  align-items: center;
+}
+
+legend{color:#2D5259;}
+
+main{
+  margin-top:1.5%;
+  margin-bottom:-4% ;
+  padding:0.2%;}
+
+span{
+  color: red;
+  font-size:xx-small;
+}
+
+#new-patient{
+  font-family: Georgia, serif;
+  color: #2D5259;
+  background-color: #9cc3ce;
+  width: 40%;
+  border-radius: 3%;
+  margin-left: 3%;
+  margin-top: 1%;  
+}
+
+.uploads .file-img{
+  border-radius: 50%;
+  border: 6px solid #eaeaea;
+}
+
+ #image-preview  {
+  display: none;
+  float: right;
+  border-radius: 50%;
+  border: 6px solid#2D5259;
+ margin-right: 63%; 
+ margin-top: 5%;
+ width: 10%;
+ height: 10%;
+}
+
+
+#new-patient p{
+margin-left: 4%;
+}
+
+#new-patient h4{
+  text-align: center;
+}
+
+.user-input-box{
+    display: flex;
+    flex-wrap: wrap;
+    width: 30%;
+    padding-bottom: 30px;
+}
+
+.user-input-box label{
+    width: 100%;
+    color: rgb(15, 38, 48);
+    font-size: 14.5px;
+    font-weight: 450;
+    text-align: center;
+}
+
+.user-input-box input{
+    height: 40px;
+    width: 60%;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid rgb(128, 128, 128);
+    padding: 0 19px;
+    margin: auto;
+    color: gray;   
+}
+
+.user-input-box select{
+  height: 40px;
+  width: 72%;
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid rgb(128, 128, 128);
+  padding: 0 19px;
+  margin: auto;
+  color: gray;
+ }
+
+
+.form-submit-btn{
+ margin-top: 10px;
+ margin: auto;
+}
+
+.form-submit-btn input{
+  width: 15%;
+  font-size: 16px; 
+  display: flex;
+  justify-content: center;
+  background-color:#2D5259;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin: auto;
+  cursor: pointer;
+}
+
+
+
+
+
+

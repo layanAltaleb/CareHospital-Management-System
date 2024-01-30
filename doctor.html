@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Doctors page</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="main.css">
+<link rel="stylesheet" href="doctors.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://kit.fontawesome.com/b23f7a360e.js" crossorigin="anonymous"></script>
+<script src="Doc.js"></script>
+<script src="darkTheme.js"></script> 
+
+
+
+</head>
+
+<body onload="load()" >
+    
+
+    <header>     
+        <img src="logos/logo.png" alt="logo" width="200" height="200">
+        <h1>CareHospital Management </h1>
+    
+        <ul class="infomation">
+          <li><i class="fa-solid fa-envelope"></i>  CareHospital@gmail.com</li>
+          <li><i class="fa-solid fa-phone-volume"></i>  +966502479214</li>
+          <li><i class="fa-solid fa-location-dot"></i>  king Fahad st, Riyadh, Saudi Arabia</li>
+      </ul>
+     
+      
+        <div class = "topnav">
+            <nav>
+                <ul class="nav1">
+                    <li class="nav2"><a href = "index.html">Home Page</a></li>
+                    <li class="nav2"><a href = "hospital.html">About hospital</a></li>
+                    <li class="nav2"> <a href = "patient.html">Patients</a></li>
+                    <li class="nav2"><a href = "doctor.html">Doctors</a></li>
+                    <li class="nav2"> <a href = "ERPage.html">Emergency Schedule</a></li>
+                    <li class="nav2"><a href = "pharmacy.html">Pharmacy</a></li>
+                    <li class="nav2"><a href = "department.html">Departments</a></li>
+                    <li class="nav2"> <a href = "awards.html">Awards</a></li>
+                    <li class="nav2"> <a href = "ReportsPage.html">Reports</a></li>
+                    <li class="nav2"> <a href = "SettingsPage.html">Settings</a></li>
+                </ul>
+            </nav>
+        </div>  
+      </header>
+    
+
+
+<main>
+
+
+
+<h1 class="care">Doctors List</h1>
+
+
+<div class="sorting-choice" >
+<br>
+<label >sort by</label>
+<select onchange="sorting(this.selectedIndex)">
+    <option value="default">Default</option>
+    <option value="Alphabatical " >Alphabatical order</option>
+    <option value="department" >department</option>
+</select>
+</div>
+<br>
+
+<div class="flex-container" id="1container">
+    
+
+
+
+    <div class="flex-iteam" id="Sara">
+        <div class="images">
+            <img src="Doctors/f6.jpg" alt="Dr Sara photo">
+
+        </div>
+        <div class="info">
+            <h3>Dr.Sara</h3>
+        </div>
+        <div class="dep">
+            <h4>Department: General Surgery </h4>
+        </div>
+        <div class="order">
+            <h1>a</h1>
+        </div>
+        <div class="star-rating">
+            <div class="star-input">
+                <input type="radio" name="2rating" id="rating-25">
+              <label for="rating-25" class="fa fa-star">
+              </label>
+                  <input type="radio" name="2rating" id="rating-24">
+              <label for="rating-24" class="fa fa-star">  
+               </label>
+              <input type="radio" name="2rating" id="rating-23">
+              <label for="rating-23" class="fa fa-star">    
+              </label>
+                    <input type="radio" name="2rating" id="rating-22">
+               
+              <label for="rating-22" class="fa fa-star">       
+                 </label>
+                        <input type="radio" name="2rating" id="rating-21">
+              <label for="rating-21" class="fa fa-star">     
+               </label>
+             
+            </div>
+          </div>
+  
+
+    </div>
+
+    <div class="flex-iteam" id="Ahmad">
+        <div class="images" >
+            <img src="Doctors/m7.jpg" alt="Dr Ahmad photo">
+
+
+        </div>
+        <div class="info">
+            <h3>Dr.Ahmed</h3>
+        </div>
+        <div class="dep">
+            <h4>Department: General Surgery </h4>
+
+        </div>
+        <div class="order">
+            <h1>b</h1>
+        </div>
+        <div class="star-rating">
+            <div class="star-input">
+                <input type="radio" name="rating" id="rating-5">
+              <label for="rating-5" class="fa fa-star">
+              </label>
+                  <input type="radio" name="rating" id="rating-4">
+              <label for="rating-4" class="fa fa-star">  
+               </label>
+              <input type="radio" name="rating" id="rating-3">
+              <label for="rating-3" class="fa fa-star">    
+              </label>
+                    <input type="radio" name="rating" id="rating-2">
+               
+              <label for="rating-2" class="fa fa-star">       
+                 </label>
+                        <input type="radio" name="rating" id="rating-1">
+              <label for="rating-1" class="fa fa-star">     
+               </label>
+             
+            </div>
+          </div>
+  
+
+
+    </div>
+
+
+
+
+    <div class="flex-iteam" id="Rana">
+        <div class="images">
+            <img src="Doctors/f7.jpg" alt="Dr Rana photo">
+
+        </div>
+        <div class="info">
+            <h3>Dr.Rana</h3>
+        </div>
+        <div class="dep">
+            <h4>Department: Oncology </h4>
+
+        </div>
+        <div class="order">
+            <h1>c</h1>
+        </div>
+        <div class="star-rating">
+            <div class="star-input">
+                <input type="radio" name="3rating" id="rating-35">
+              <label for="rating-35" class="fa fa-star">
+              </label>
+                  <input type="radio" name="3rating" id="rating-34">
+              <label for="rating-34" class="fa fa-star">  
+               </label>
+              <input type="radio" name="3rating" id="rating-33">
+              <label for="rating-33" class="fa fa-star">    
+              </label>
+                    <input type="radio" name="3rating" id="rating-32">
+               
+              <label for="rating-32" class="fa fa-star">       
+                 </label>
+                        <input type="radio" name="3rating" id="rating-31">
+              <label for="rating-31" class="fa fa-star">     
+               </label>
+             
+            </div>
+          </div>
+  
+
+
+    </div>
+
+
+
+    
+    <div class="flex-iteam" id="Omar">
+        <div class="images">
+            <img src="Doctors/m9.jpg" alt="Dr Omar photo">
+
+        </div>
+        <div class="info">
+            <h3>Dr.Omar</h3>
+        </div>
+        <div class="dep">
+            <h4>Department: Dermatology  </h4>
+
+        </div>
+        <div class="order">
+            <h1>d</h1>
+        </div>
+        <div class="star-rating">
+            <div class="star-input">
+                <input type="radio" name="4rating" id="rating-45">
+              <label for="rating-45" class="fa fa-star">
+              </label>
+                  <input type="radio" name="4rating" id="rating-44">
+              <label for="rating-44" class="fa fa-star">  
+               </label>
+              <input type="radio" name="4rating" id="rating-43">
+              <label for="rating-43" class="fa fa-star">    
+              </label>
+                    <input type="radio" name="4rating" id="rating-42">
+               
+              <label for="rating-42" class="fa fa-star">       
+                 </label>
+                        <input type="radio" name="4rating" id="rating-41">
+              <label for="rating-41" class="fa fa-star">     
+               </label>
+             
+            </div>
+          </div>
+  
+
+    </div>
+
+
+
+    <div class="flex-iteam" id="Noura">
+        <div class="images">
+            <img src="Doctors/f9.jpg" alt="Dr Noura photo">
+
+        </div>
+        <div class="info">
+            <h3>Dr.Noura</h3>
+        </div>
+        <div class="dep">
+            <h4>Department: Cardiology </h4>
+ 
+        </div>
+        <div class="order">
+            <h1>e</h1>
+        </div>
+       
+        
+        <div class="star-rating">
+            <div class="star-input">
+                <input type="radio" name="5rating" id="rating-55">
+              <label for="rating-55" class="fa fa-star">
+              </label>
+                  <input type="radio" name="5rating" id="rating-54">
+              <label for="rating-54" class="fa fa-star">  
+               </label>
+              <input type="radio" name="5rating" id="rating-53">
+              <label for="rating-53" class="fa fa-star">    
+              </label>
+                    <input type="radio" name="5rating" id="rating-52">
+               
+              <label for="rating-52" class="fa fa-star">       
+                 </label>
+                        <input type="radio" name="5rating" id="rating-51">
+              <label for="rating-51" class="fa fa-star">     
+               </label>
+             
+            </div>
+          </div>
+  
+
+
+    </div>
+
+
+
+    <div class="flex-iteam" id="Amal">
+        <div class="images">
+            <img src="Doctors/f8.jpg" alt="Dr Amal photo">
+
+        </div>
+        <div class="info">
+            <h3>Dr.Amal</h3>
+        </div>
+        <div class="dep">
+            <h4>Department: pediatrics </h4>
+ 
+        </div>
+        <div class="order">
+            <h1>f</h1>
+        </div>
+        <div class="star-rating">
+            <div class="star-input">
+                <input type="radio" name="6rating" id="rating-65">
+              <label for="rating-65" class="fa fa-star">
+              </label>
+                  <input type="radio" name="6rating" id="rating-64">
+              <label for="rating-64" class="fa fa-star">  
+               </label>
+              <input type="radio" name="6rating" id="rating-63">
+              <label for="rating-63" class="fa fa-star">    
+              </label>
+                    <input type="radio" name="6rating" id="rating-62">
+               
+              <label for="rating-62" class="fa fa-star">       
+                 </label>
+                        <input type="radio" name="6rating" id="rating-61">
+              <label for="rating-61" class="fa fa-star">     
+               </label>
+             
+            </div>
+          </div>
+  
+
+
+    </div>
+
+
+
+
+    <div class="flex-iteam" id="Khaled">
+        <div class="images">
+            <img src="Doctors/m8.jpg" alt="Dr Khaled photo">
+
+        </div>
+        <div class="info">
+            <h3>Dr.Khaled</h3>
+        </div>
+        <div class="dep">
+            <h4>Department: Orthopedic </h4>
+ 
+        </div>
+        <div class="order">
+            <h1>g</h1>
+        </div>
+        <div class="star-rating">
+            <div class="star-input">
+                <input type="radio" name="7rating" id="rating-75">
+              <label for="rating-75" class="fa fa-star">
+              </label>
+                  <input type="radio" name="7rating" id="rating-74">
+              <label for="rating-74" class="fa fa-star">  
+               </label>
+              <input type="radio" name="7rating" id="rating-73">
+              <label for="rating-73" class="fa fa-star">    
+              </label>
+                    <input type="radio" name="7rating" id="rating-72">
+               
+              <label for="rating-72" class="fa fa-star">       
+                 </label>
+                        <input type="radio" name="7rating" id="rating-71">
+              <label for="rating-71" class="fa fa-star">     
+               </label>
+             
+            </div>
+          </div>
+  
+
+    </div>
+</div>
+
+
+
+
+
+</main>
+
+
+
+
+
+
+
+<footer>
+    <ul>
+	  <li class="footer"><a href = "index.html">Home Page</a> </li>
+        <li class="footer"><a href = "hospital.html">About hospital</a> </li>
+        <li class="footer"> <a href = "patient.html">Patients</a> </li>
+        <li class="footer"><a href = "doctor.html">Doctors</a></li>
+        <li class="footer"> <a href = "ERPage.html">Emergency Schedule</a></li>
+        <li class="footer"><a href = "pharmacy.html">Pharmacy</a></li>
+        <li class="footer"><a href = "department.html">Departments</a></li>
+        <li class="footer"> <a href = "awards.html">Awards</a></li>
+        <li class="footer"> <a href = "ReportsPage.html">Reports</a></li>
+        <li class="footer"> <a href = "SettingsPage.html">Settings</a></li>
+        <li class="footer"> <a href = "in-pateint-mangement.html">In-Patient</a></li>
+        <li class="footer"> <a href = "newpatient.html">New-Patient</a></li>
+    </ul> 
+    <p>©️2023CareHospital</p>
+</footer>
+
+<script src="/Doc.js"></script>
+</body>
+</html>
+
+

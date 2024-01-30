@@ -1,0 +1,504 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;}
+
+/* ^^^^^^^^^^^^^^^^^^ header and footer ^^^^^^^^^^^^^^^^^^^^^^^*/
+.infomation {
+	color: #2D5259; 
+	margin-top: -100px;
+	margin-left: 74%;
+	font-size: 18px;}
+  
+.infomation li{
+	margin: 1em 0;}
+  
+body{background-color: #B7D1D8;}
+		 
+#ward{
+  margin-top: 2%;
+  margin-left: 2%;}
+
+  h1{
+	color: #2D5259;
+	font-weight: lighter;
+	font-size: 32px;
+	text-align: center;
+	margin-right: 830px;
+	margin-top: 90px;}
+  
+	header img{float:left;}
+  
+	header{
+	background-color: #9cc3ce;
+	border-style: double;
+	border-color:#2D5259;  
+	overflow: hidden;
+  font-family:Georgia, serif;
+  margin: 0.4%;}
+  
+  
+	div.topnav{ 
+	background-color: #2D5259;
+	width: 100%;
+	justify-content: center;
+	overflow: hidden;
+	padding: 1.1%;}
+
+  
+	li.nav2{
+	  display: inline;
+	  font-size: medium;}
+  
+  
+	li.nav2  a{
+	 color:#B7D1D8;
+	 font-family:Georgia, serif;
+	 text-align: center;
+	 justify-content: center;
+	 text-decoration: none;
+	 padding: 12px 12px;
+	 margin-right: 17px;
+	 margin-left: 17px;
+	 overflow: clip;}
+   
+   
+	li.nav2 a:hover{
+	   background-color: #9cc3ce;
+	   color: #2D5259;}
+	
+  
+  
+  li{list-style: none;}
+  
+  
+  li.footer{display: inline;}
+  
+	li.footer a{
+	color:#B7D1D8;
+	display: inline;
+	font-size: x-small;
+	margin-right: 30px;
+	margin-left: 33px;}
+  
+
+  footer{
+	color:#B7D1D8;
+	font-family:Georgia, serif;
+	background-color: #2D5259;
+	text-align: center;
+	width: 100%;
+	margin-top: 5%;
+	font-size: 16px;}
+  
+  .flex-container {flex-direction: row;}
+  
+	@media only screen and (max-width: 500px) {
+	  .responsive {
+		width: 100%;
+	  }
+	}
+	
+
+/* ----------------------------------------------------------- */
+ 
+/* Base font size */
+:root {font-size: 9px;}
+
+.ward{
+	float:right;
+	font-size: medium;}
+
+
+.form-submit-btn input{cursor: pointer;}
+
+.form-submit-btn{margin-top: 2px;}
+
+.form-submit-btn input{
+    display: block;
+    width: 8%;
+    margin-top: 5px;
+    font-size: 10px;}
+
+body {
+	font-family:Georgia, serif;
+	background-color: #B7D1D8;
+	width: 100%;
+	height: 100%;}
+
+#info{
+	height: 150px;
+	width: 250px;
+	padding: 3px;
+	margin-top: 8px;
+	float: right;	
+	position: relative; right:330px ;
+  border: gray solid thin;}
+
+#form{
+ height: 170px;
+ width: 250px;
+ margin-top: 7px;
+ margin-right: 100px;
+ position: relative; left:310px ;
+ padding: 4px;}
+
+label {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 18px;
+	color:#2D5259;
+	height: 20px;
+	width: 15px;
+	text-align: right;}
+   
+  input {
+	height: 20px;
+	width: 150px;
+	border: 1px solid gray;
+	margin-top: 10px;
+	justify-content: center;
+	color:rgb(101, 94, 94)}
+
+
+.bed h2{
+	text-align: center;	
+	color: #2D5259;}
+
+.patient .beds {
+	display: flex;
+	gap: 0.4rem;
+	padding-top: 4rem;
+	margin: 0px 100px;}
+
+  .patient .bed {
+	border-radius: 2.5rem;
+	border: 1px solid rgba(144, 144, 144, 0.25);
+	overflow: hidden;
+	transition: 0.3s;}
+
+  .patient .bed .top {
+	height: 15rem;
+	justify-content: center;
+	position: relative;
+	transition: 0.3s;}
+
+.patient .bed .top img {height: 23rem;}
+  
+.patient .bed:hover {
+	border: none;
+	transform: scale(1.1);}
+
+
+/*------------- Form Styling ----------- */
+
+.form-modal, .reservation-modal {
+	position: fixed;
+	left: 0;
+	top: -1400px;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+	width: 400px; 
+	max-height: 350px; 
+	border-radius: 10px;
+	overflow: auto; 
+	background-color: #9cc3ce ;
+	padding: 10px;
+	transition: all 0.3s ease;
+	z-index: 99;
+  color: #2D5259;
+  text-align: left;
+  font-family:Georgia, serif;
+}
+
+
+
+  .form-modal > #close-form,.reservation-modal > #close-reservation {
+	color: red;
+	font-size: 22px;
+	font-weight: bold;
+	position: absolute;
+	top: 10px;
+	right: 20px;
+	padding: 5px;
+	cursor: pointer;}
+
+
+  .form-modal > form, .form-modal > .bed-data {
+	/* width: 50%;
+	float: left; */
+	padding: 15px;}
+
+.form-modal > form > div,.reservation-modal > .bed-data > div {margin-bottom: 20px;}
+
+.form-modal > form label {width: 100%;}
+
+.form-modal > form input {
+	width: 100%;
+	padding: 10px;
+	height: 50px;}
+
+.form-modal > form input[type=submit] { cursor: pointer;}
+
+.form-modal .bed-date {padding: 10px;}
+
+.bed-data {visibility: hidden;}
+
+.reservation-modal .bed-data {font-size: 22px;}
+
+.reservation-modal .bed-data > div{ margin-bottom: 15px;}
+
+/*///////////dark mode/////////*/
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;}
+
+/* ^^^^^^^^^^^^^^^^^^ header and footer ^^^^^^^^^^^^^^^^^^^^^^^*/
+.dark-mode .infomation {
+	margin-top: -100px;
+	margin-left: 72%;
+	font-size: large;
+  }
+  
+.infomation li{margin: 1em 0;}
+  
+
+.dark-mode{
+		background-color: #30555f;
+		font-family: Georgia, serif;}
+		 
+#ward{
+  margin-top: 2%;
+  margin-left: 2%;}
+
+  .dark-mode header h1{
+	font-weight: lighter;
+	text-align: center;
+	margin-right: 830px;
+	margin-top: 90px;
+  }
+  
+	header img{float:left;}
+  
+	.dark-mode header{
+	background-color: #9cc3ce;
+	border-style: double;
+	border-color:#2D5259;  
+	overflow: hidden;
+  font-family:Georgia, serif;
+  margin: 0.4%;
+  filter: invert(1) hue-rotate(180deg);
+}
+  
+  
+.dark-mode div.topnav{ 
+	background-color: #8fb9c1;
+	width: 100%;
+	justify-content: center;
+	overflow: hidden;
+	filter: invert(1) hue-rotate(180deg);
+	padding: 1.1%;}
+
+  
+	li.nav2{
+	  display: inline;
+	  font-size: medium;}
+  
+  
+
+	  .dark-mode li.nav2  a{
+		color:#28464c;
+	 font-family:Georgia, serif;
+	 text-align: center;
+	 justify-content: center;
+	 text-decoration: none;
+	 padding: 12px 12px;
+	 margin-right: 17px;
+	 margin-left: 17px;
+	 overflow: clip;}
+   
+   
+	 .dark-mode i.nav2 a:hover {
+		background-color: #375960;
+		color: #e6f5f9;}
+	
+  
+  
+  li{list-style: none;}
+  
+  
+  li.footer{display: inline;}
+  
+  .dark-mode li.footer a{
+	color:#28464c;
+	display: inline;
+	font-size: x-small;
+	margin-right: 40px;
+	margin-left: 20px; }
+  
+
+	.dark-mode footer{
+		color:#28464c;
+	font-family:Georgia, serif;
+	background-color: #8fb9c1;
+	text-align: center;
+	width: 100%;
+	margin-top: 5%;
+	font-size: 16px;}
+  
+  .flex-container {flex-direction: row;}
+  
+	@media only screen and (max-width: 500px) {
+	  .responsive {
+		width: 100%;
+	  }
+	}
+	
+
+/* ----------------------------------------------------------- */
+ 
+/* Base font size */
+:root {font-size: 9px;}
+
+.ward{
+	float:right;
+	font-size: medium;}
+
+
+.form-submit-btn input{cursor: pointer;}
+
+.form-submit-btn{margin-top: 2px;}
+
+.form-submit-btn input{
+    display: block;
+    width: 8%;
+    margin-top: 5px;
+    font-size: 10px;}
+
+	.dark-mode{
+		background-color: #30555f;
+		font-family: Georgia, serif;
+	width: 100%;
+	height: 100%;}
+
+#info{
+	height: 150px;
+	width: 250px;
+	padding: 3px;
+	margin-top: 8px;
+	float: right;	
+	position: relative; right:330px ;
+  border: gray solid thin;}
+
+#form{
+ height: 170px;
+ width: 250px;
+ margin-top: 7px;
+ margin-right: 100px;
+ position: relative; left:310px ;
+ padding: 4px;}
+
+.dark-mode label {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 18px;
+	color: #e6f5f9;
+	height: 20px;
+	width: 15px;
+	text-align: right;}
+   
+  input {
+	height: 20px;
+	width: 150px;
+	border: 1px solid gray;
+	margin-top: 10px;
+	justify-content: center;
+	color:rgb(101, 94, 94)}
+
+
+	.dark-mode .bed h2{
+	text-align: center;	
+	color: #e6f5f9;}
+
+.patient .beds {
+	display: flex;
+	gap: 0.4rem;
+	padding-top: 4rem;
+	margin: 0px 100px;}
+
+  .patient .bed {
+	border-radius: 2.5rem;
+	border: 1px solid rgba(144, 144, 144, 0.25);
+	overflow: hidden;
+	transition: 0.3s;}
+
+  .patient .bed .top {
+	height: 15rem;
+	justify-content: center;
+	position: relative;
+	transition: 0.3s;}
+
+.patient .bed .top img {height: 23rem;}
+  
+.patient .bed:hover {
+	border: none;
+	transform: scale(1.1);}
+
+
+/*------------- Form Styling ----------- */
+
+.dark-mode .form-modal, .reservation-modal {
+	position: fixed;
+	left: 0;
+	top: -1400px;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+	width: 400px; 
+	max-height: 350px; 
+	border-radius: 10px;
+	overflow: auto; 
+	background-color: #28464c; ;
+	padding: 10px;
+	transition: all 0.3s ease;
+	z-index: 99;
+  color: #e6f5f9;
+  text-align: left;
+  font-family:Georgia, serif;
+}
+
+
+  .form-modal > #close-form,.reservation-modal > #close-reservation {
+	color: red;
+	font-size: 22px;
+	font-weight: bold;
+	position: absolute;
+	top: 10px;
+	right: 20px;
+	padding: 5px;
+	cursor: pointer;}
+
+
+  .form-modal > form, .form-modal > .bed-data {
+	padding: 15px;}
+	
+
+.form-modal > form > div,.reservation-modal > .bed-data > div {margin-bottom: 20px;}
+
+.form-modal > form label {width: 100%;}
+
+.form-modal > form input {
+	width: 100%;
+	padding: 10px;
+	height: 50px;}
+
+.form-modal > form input[type=submit] { cursor: pointer;}
+
+.form-modal .bed-date {padding: 10px;}
+
+.bed-data {visibility: hidden;}
+
+.reservation-modal .bed-data {font-size: 22px;}
+
+.reservation-modal .bed-data > div{ margin-bottom: 15px;}

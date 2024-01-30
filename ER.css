@@ -1,0 +1,52 @@
+table, th, td {border: 2px solid #2D5259;}
+
+  table {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: -1%;
+  }
+
+  #ER-main{
+    text-align: center;
+    font-family:Georgia, serif;
+    font-size: large;
+    color: #2D5259;
+   margin: 4%;
+  /* filter: invert(1) hue-rotate(180deg);*/
+
+  
+  }
+
+  main p{
+    font-size: x-large;
+    margin-top: -2.7%;
+  }
+
+  thead{
+    background-color: #2D5259;
+    color: #fff;
+
+  }
+  table th{
+    background-color: #2D5259;;
+    color: #f2f4f4;
+    
+
+  }
+  thead th{
+    background-color:#B7D1D8;
+   
+  }
+
+  th, td{  padding: 25px;}
+  h3{
+    text-align: left;
+    padding-bottom: 30px;
+  }
+#p1{
+  text-align: left;
+    padding-bottom: 30px;
+}
+
+ 
+  
