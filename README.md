@@ -6,7 +6,7 @@ Welcome to the repository for the "CareHospital" project, assigned in the IT312 
 The "CareHospital" project is a  web application designed to empower hospital administrators in efficiently managing complex healthcare systems. The primary objective is to provide administrators with intuitive technical tools, streamlining tasks, and enhancing overall performance and outcomes.
 
 #  Function Requirements
-  Weekly ER Schedule:
+# Weekly ER Schedule:
 The website will present the weekly Emergency Room (ER) schedule, listing doctors with shifts and their starting times.
 # Patient Management:
 The website should allow for the addition of new patients and essential data about them.
