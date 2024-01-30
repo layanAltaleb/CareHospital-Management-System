@@ -6,19 +6,19 @@ Welcome to the repository for the "CareHospital" project, assigned in the IT312 
 The "CareHospital" project is a  web application designed to empower hospital administrators in efficiently managing complex healthcare systems. The primary objective is to provide administrators with intuitive technical tools, streamlining tasks, and enhancing overall performance and outcomes.
 
 #  Function Requirements
-##  Weekly ER Schedule:
+#  Weekly ER Schedule:
 The website will present the weekly Emergency Room (ER) schedule, listing doctors with shifts and their starting times.
-##  Patient Management:
+# Patient Management:
 The website should allow for the addition of new patients and essential data about them.
-## User-Friendly Browsing:
+# User-Friendly Browsing:
 The website visitor must be able to easily browse through the pages.
-##  Bed Availability:
+#  Bed Availability:
 The website will show administrators the availability and occupancy of beds.
-##  Occupied Beds Information:
+# Occupied Beds Information:
 Administrators can click on occupied beds to examine patient names, admission dates, discharge dates, and add a patient to an open bed.
-##  Department Exploration:
+# Department Exploration:
  Visitors can explore the different departments the hospital has.
-##  Home page:
+# Home page:
 offers a user-friendly interface with a navigation bar providing quick access to key sections such as Patients, Doctors, Emergency Schedule, and Settings with a dedicated Theme Switcher.
 
 # Installation
